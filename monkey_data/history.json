@@ -111,6 +111,22 @@
         "special": "sparkles"
       },
       "story": "Your monkey rested today. No visible changes."
+    },
+    {
+      "timestamp": "2025-11-23T01:18:19.119028",
+      "dna_hash": "dbe15df467e2e805",
+      "generation": 1,
+      "mutation_count": 4,
+      "rarity_score": 33.33333333333333,
+      "traits": {
+        "body_color": "tan",
+        "face_expression": "cosmic",
+        "accessory": "simple_hat",
+        "pattern": "solid",
+        "background": "space",
+        "special": "sparkles"
+      },
+      "story": "Your monkey evolved! Changes: face_expression: winking \u2192 cosmic"
     }
   ]
 }

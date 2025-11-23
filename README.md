@@ -149,8 +149,10 @@ Then open http://localhost:8000/web/index.html in your browser!
 <circle cx="60" cy="120" r="25" fill="#FFB6C1"/>
 <circle cx="240" cy="120" r="25" fill="#FFB6C1"/>
 <ellipse cx="150" cy="170" rx="80" ry="70" fill="#F5DEB3"/>
-<ellipse cx="110" cy="140" rx="15" ry="20" fill="#000"/>
-<line x1="175" y1="140" x2="205" y2="140" stroke="#000" stroke-width="3"/>
+<circle cx="110" cy="140" r="15" fill="#000"/>
+<circle cx="190" cy="140" r="15" fill="#000"/>
+<circle cx="107" cy="137" r="5" fill="#FFF"/>
+<circle cx="187" cy="137" r="5" fill="#FFF"/>
 <ellipse cx="150" cy="170" rx="12" ry="8" fill="#8B4513"/>
 <line x1="130" y1="195" x2="170" y2="195" stroke="#000" stroke-width="2"/>
 <rect x="100" y="0" width="100" height="20" fill="#8B0000" stroke="#000" stroke-width="2"/>
@@ -167,9 +169,9 @@ Then open http://localhost:8000/web/index.html in your browser!
 
 <!-- MONKEY_STATS_START -->
 - **Generation**: 1
-- **Age**: 7 days
-- **Mutations**: 3
-- **Rarity Score**: 25.0/100
+- **Age**: 8 days
+- **Mutations**: 4
+- **Rarity Score**: 33.3/100
 <!-- MONKEY_STATS_END -->
 
 ## Family Tree

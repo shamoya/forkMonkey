@@ -51,8 +51,10 @@
 <circle cx="110" cy="170" r="25" fill="#FFB6C1"/>
 <circle cx="290" cy="170" r="25" fill="#FFB6C1"/>
 <ellipse cx="200" cy="220" rx="80" ry="70" fill="#F5DEB3"/>
-<ellipse cx="160" cy="190" rx="15" ry="20" fill="#000"/>
-<line x1="225" y1="190" x2="255" y2="190" stroke="#000" stroke-width="3"/>
+<circle cx="160" cy="190" r="15" fill="#000"/>
+<circle cx="240" cy="190" r="15" fill="#000"/>
+<circle cx="157" cy="187" r="5" fill="#FFF"/>
+<circle cx="237" cy="187" r="5" fill="#FFF"/>
 <ellipse cx="200" cy="220" rx="12" ry="8" fill="#8B4513"/>
 <line x1="180" y1="245" x2="220" y2="245" stroke="#000" stroke-width="2"/>
 <rect x="150" y="50" width="100" height="20" fill="#8B0000" stroke="#000" stroke-width="2"/>
