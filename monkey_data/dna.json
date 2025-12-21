@@ -1,19 +1,19 @@
 {
   "generation": 1,
   "parent_id": null,
-  "dna_hash": "6b5999c307252477",
+  "dna_hash": "20f1b946119942c6",
   "mutation_count": 0,
-  "birth_timestamp": 510969,
+  "birth_timestamp": 311797,
   "traits": {
     "body_color": {
-      "value": "tan",
+      "value": "brown",
       "rarity": "common",
-      "gene_sequence": "11949536"
+      "gene_sequence": "d47133ea"
     },
     "face_expression": {
-      "value": "excited",
-      "rarity": "uncommon",
-      "gene_sequence": "1f285d35"
+      "value": "curious",
+      "rarity": "common",
+      "gene_sequence": "7d0bf056"
     },
     "accessory": {
       "value": "headphones",
@@ -26,15 +26,15 @@
       "gene_sequence": "a55312dd"
     },
     "background": {
-      "value": "beach",
+      "value": "city",
       "rarity": "uncommon",
-      "gene_sequence": "95919cff"
+      "gene_sequence": "2071a1d4"
     },
     "special": {
-      "value": "shadow",
-      "rarity": "uncommon",
-      "gene_sequence": "db06738c"
+      "value": "none",
+      "rarity": "common",
+      "gene_sequence": "9f7c3055"
     }
   },
-  "rarity_score": 16.666666666666664
+  "rarity_score": 13.333333333333334
 }
