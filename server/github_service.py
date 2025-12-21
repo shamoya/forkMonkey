@@ -46,6 +46,14 @@ class GitHubService:
             # Wait for fork to be ready
             time.sleep(5)
             
+            # Safety check: Prevent renaming the source repo if we are the owner
+            # (GitHub API returns source repo if you try to fork your own repo)
+            if fork.full_name == self.source_repo:
+                 return {
+                    'success': False,
+                    'error': 'Cannot fork source repository to its own owner (Self-fork detected). Use a different account for the backend.'
+                }
+            
             # Rename if custom name provided
             if repo_name and repo_name != fork.name:
                 fork.edit(name=repo_name)

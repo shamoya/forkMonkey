@@ -34,7 +34,8 @@ const ForkMonkey = {
         repoName: 'forkMonkey',
         refreshInterval: 60000, // 60 seconds
         // apiBaseUrl: '/api',      // Production URL
-        apiBaseUrl: 'http://localhost:8080/api' // For local development
+        // apiBaseUrl: 'http://localhost:8080/api' // For local development
+        apiBaseUrl: 'https://forkmonkey-backend-1068119864554.us-central1.run.app/api' // Production Backend (Cloud Run)
     },
 
     /**
