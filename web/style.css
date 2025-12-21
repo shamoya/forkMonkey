@@ -611,6 +611,71 @@ body {
     font-weight: 500;
 }
 
+/* Achievements Mini Display */
+.achievements-mini {
+    margin-top: var(--space-lg);
+    padding-top: var(--space-md);
+    border-top: 1px solid var(--border-subtle);
+}
+
+.achievements-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-sm);
+}
+
+.achievements-title {
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.achievements-count {
+    font-size: var(--text-xs);
+    color: var(--text-muted);
+    background: var(--bg-card);
+    padding: 2px 8px;
+    border-radius: var(--radius-full);
+}
+
+.achievements-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.achievement-icon {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-sm);
+    font-size: 14px;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.achievement-icon:hover {
+    transform: scale(1.15);
+    border-color: var(--primary);
+    box-shadow: 0 0 8px var(--primary);
+}
+
+.achievement-icon.locked {
+    opacity: 0.3;
+    filter: grayscale(1);
+}
+
+.achievement-icon.locked:hover {
+    transform: none;
+    border-color: var(--border-subtle);
+    box-shadow: none;
+}
+
 /* Traits Panel */
 .traits-panel {
     padding: var(--space-lg);

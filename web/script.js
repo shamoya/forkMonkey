@@ -325,6 +325,9 @@ const ForkMonkey = {
 
             // Render traits
             this.renderTraits(stats.traits);
+            
+            // Render achievements
+            this.renderAchievements(stats, dna);
         }
 
         // Update network stats
@@ -393,6 +396,50 @@ const ForkMonkey = {
                     <span class="trait-name">${this.formatName(name)}</span>
                     <span class="trait-value">${this.formatName(value)}</span>
                     <span class="trait-rarity ${rarity}">${rarity}</span>
+                </div>
+            `;
+        }).join('');
+    },
+
+    /**
+     * Render achievements display
+     */
+    renderAchievements(stats, dna) {
+        const container = document.getElementById('achievements-icons');
+        const countEl = document.getElementById('achievements-count');
+        
+        if (!container) return;
+        
+        // Achievement definitions (client-side version)
+        const achievements = [
+            { key: 'first_hatch', icon: '🥚', title: 'First Hatch', check: () => true },
+            { key: 'week_streak', icon: '🔥', title: 'Week Warrior (7 days)', check: () => (stats?.age_days || 0) >= 7 },
+            { key: 'month_keeper', icon: '💎', title: 'Diamond Hands (30 days)', check: () => (stats?.age_days || 0) >= 30 },
+            { key: 'first_mutation', icon: '🧬', title: 'First Change', check: () => (stats?.mutation_count || 0) >= 1 },
+            { key: 'mutant', icon: '🔬', title: 'Mutant (10 mutations)', check: () => (stats?.mutation_count || 0) >= 10 },
+            { key: 'high_rarity', icon: '🌟', title: 'Rare Breed (50+ rarity)', check: () => (stats?.rarity_score || 0) >= 50 },
+            { key: 'elite_rarity', icon: '👑', title: 'Elite (75+ rarity)', check: () => (stats?.rarity_score || 0) >= 75 },
+            { key: 'accessorized', icon: '🎩', title: 'Accessorized', check: () => dna?.accessory && dna.accessory !== 'None' },
+            { key: 'patterned', icon: '🎨', title: 'Patterned', check: () => dna?.pattern && dna.pattern !== 'None' },
+            { key: 'special_one', icon: '✨', title: 'The Special One', check: () => dna?.special && dna.special !== 'None' },
+            { key: 'gen_2', icon: '2️⃣', title: 'Second Gen', check: () => (stats?.generation || 1) >= 2 },
+            { key: 'parent', icon: '👶', title: 'Proud Parent (1+ fork)', check: () => (stats?.children_count || 0) >= 1 },
+        ];
+        
+        const unlocked = achievements.filter(a => a.check());
+        
+        // Update count
+        if (countEl) {
+            countEl.textContent = `${unlocked.length}/${achievements.length}`;
+        }
+        
+        // Render icons
+        container.innerHTML = achievements.map(achievement => {
+            const isUnlocked = achievement.check();
+            return `
+                <div class="achievement-icon ${isUnlocked ? '' : 'locked'}" 
+                     title="${achievement.title}${isUnlocked ? ' ✓' : ' (locked)'}">
+                    ${achievement.icon}
                 </div>
             `;
         }).join('');
