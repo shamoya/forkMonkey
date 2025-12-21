@@ -136,11 +136,21 @@ const ForkMonkey = {
     },
 
     /**
-     * Get base path for data files
+     * Get base path for data files (relative to web/ folder)
      */
     getBasePath() {
         const isGitHubPages = window.location.hostname.includes('github.io');
+        // On GitHub Pages, web/ is root. Locally, we're at /web/
         return isGitHubPages ? '' : '/';
+    },
+
+    /**
+     * Get path for web-local files (in web/ folder)
+     */
+    getWebPath() {
+        const isGitHubPages = window.location.hostname.includes('github.io');
+        // On GitHub Pages, files are at root. Locally, they're in /web/
+        return isGitHubPages ? '' : '/web/';
     },
 
     /**
@@ -148,15 +158,16 @@ const ForkMonkey = {
      */
     async loadAllData() {
         const basePath = this.getBasePath();
+        const webPath = this.getWebPath();
 
         const files = [
             ['dna', `${basePath}monkey_data/dna.json`],
             ['stats', `${basePath}monkey_data/stats.json`],
             ['history', `${basePath}monkey_data/history.json`],
-            ['community', `${basePath}community_data.json`],
-            ['leaderboard', `${basePath}leaderboard.json`],
-            ['familyTree', `${basePath}family_tree.json`],
-            ['networkStats', `${basePath}network_stats.json`]
+            ['community', `${webPath}community_data.json`],
+            ['leaderboard', `${webPath}leaderboard.json`],
+            ['familyTree', `${webPath}family_tree.json`],
+            ['networkStats', `${webPath}network_stats.json`]
         ];
 
         const results = await Promise.allSettled(
