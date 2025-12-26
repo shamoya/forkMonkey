@@ -1,13 +1,13 @@
 {
-  "last_updated": "2025-12-25T00:50:35.485877+00:00",
+  "last_updated": "2025-12-26T00:51:05.977192+00:00",
   "total_monkeys": 34,
-  "active_today": 13,
+  "active_today": 14,
   "generations": {
-    "1": 16,
-    "2": 18
+    "1": 15,
+    "2": 19
   },
-  "avg_rarity": 21.91,
-  "max_rarity": 45.0,
+  "avg_rarity": 22.3,
+  "max_rarity": 53.33,
   "min_rarity": 10.0,
   "rarest_trait": {
     "trait": "background",
@@ -21,25 +21,25 @@
   },
   "trait_distribution": {
     "body_color": {
-      "golden": 2,
-      "gray": 2,
       "silver": 4,
+      "gray": 2,
+      "prismatic": 2,
       "bronze": 3,
-      "prismatic": 1,
       "genesis_gold": 1,
-      "copper": 2,
+      "copper": 1,
       "green": 1,
       "beige": 3,
       "tan": 7,
       "purple": 1,
+      "golden": 2,
       "brown": 2,
       "blue": 2,
       "holographic": 3
     },
     "face_expression": {
-      "curious": 3,
+      "curious": 4,
       "mischievous": 3,
-      "legendary": 2,
+      "legendary": 1,
       "excited": 2,
       "cosmic": 1,
       "neutral": 6,
@@ -52,43 +52,45 @@
       "winking": 2
     },
     "accessory": {
-      "bandana": 5,
-      "monocle": 3,
-      "simple_hat": 6,
+      "bandana": 4,
+      "monocle": 2,
+      "bow": 5,
+      "simple_hat": 5,
       "jetpack": 1,
       "sunglasses": 3,
       "wings": 1,
       "none": 8,
       "laser_eyes": 2,
-      "bow": 3,
-      "headphones": 2
+      "headphones": 3
     },
     "pattern": {
       "solid": 6,
       "stars": 4,
-      "fractals": 2,
+      "flames": 1,
       "diamonds": 5,
       "gradient": 5,
       "stripes": 3,
       "spots": 6,
-      "swirls": 3
+      "swirls": 3,
+      "fractals": 1
     },
     "background": {
       "space": 2,
-      "sunset": 10,
-      "blue_sky": 3,
+      "sunset": 9,
+      "volcano": 3,
       "beach": 4,
       "forest": 2,
       "white": 4,
       "green_grass": 2,
+      "blue_sky": 3,
       "city": 4,
-      "volcano": 2,
       "underwater": 1
     },
     "special": {
       "particles": 1,
       "none": 23,
-      "energy": 3,
+      "transcendent": 1,
+      "energy": 2,
       "glow": 1,
       "sparkles": 1,
       "shadow": 4,
