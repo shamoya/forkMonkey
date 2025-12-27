@@ -611,6 +611,23 @@
       },
       "story": "Your monkey evolved! Changes: accessory: monocle \u2192 crown, background: sunset \u2192 white",
       "svg_filename": "2025-12-26_01-49_monkey.svg"
+    },
+    {
+      "timestamp": "2025-12-27T01:47:19.911848",
+      "dna_hash": "0d675895e59b4d48",
+      "generation": 1,
+      "mutation_count": 3,
+      "rarity_score": 15.0,
+      "traits": {
+        "body_color": "tan",
+        "face_expression": "mischievous",
+        "accessory": "crown",
+        "pattern": "stars",
+        "background": "white",
+        "special": "none"
+      },
+      "story": "Your monkey evolved! Changes: body_color: gray \u2192 tan",
+      "svg_filename": "2025-12-27_01-47_monkey.svg"
     }
   ]
 }
