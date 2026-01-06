@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-01-05T00:57:26.287356+00:00",
+  "last_updated": "2026-01-06T00:52:44.948081+00:00",
   "total_monkeys": 34,
   "active_today": 14,
   "generations": {
     "1": 15,
     "2": 19
   },
-  "avg_rarity": 23.28,
+  "avg_rarity": 23.48,
   "max_rarity": 61.67,
   "min_rarity": 10.0,
   "rarest_trait": {
-    "trait": "face_expression",
-    "value": "winking",
+    "trait": "pattern",
+    "value": "nebula",
     "count": 1
   },
   "most_common_trait": {
@@ -54,8 +54,8 @@
     },
     "accessory": {
       "bow": 4,
-      "simple_hat": 6,
-      "crown": 1,
+      "simple_hat": 5,
+      "crown": 2,
       "jetpack": 1,
       "sunglasses": 2,
       "wings": 1,
@@ -68,14 +68,15 @@
     "pattern": {
       "fractals": 2,
       "spots": 5,
-      "stars": 6,
+      "stars": 5,
       "aurora": 1,
       "diamonds": 3,
       "gradient": 5,
       "stripes": 3,
       "swirls": 3,
       "solid": 4,
-      "hearts": 2
+      "hearts": 2,
+      "nebula": 1
     },
     "background": {
       "blue_sky": 4,
@@ -95,8 +96,8 @@
       "transcendent": 1,
       "energy": 3,
       "glow": 1,
-      "sparkles": 1,
-      "shadow": 5,
+      "sparkles": 2,
+      "shadow": 4,
       "aura": 1
     }
   }
