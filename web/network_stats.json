@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-21T00:54:14.585938+00:00",
+  "last_updated": "2026-01-22T00:52:39.976758+00:00",
   "total_monkeys": 33,
   "active_today": 13,
   "generations": {
@@ -11,7 +11,7 @@
   "min_rarity": 10.0,
   "rarest_trait": {
     "trait": "pattern",
-    "value": "fractals",
+    "value": "nebula",
     "count": 1
   },
   "most_common_trait": {
@@ -21,10 +21,10 @@
   },
   "trait_distribution": {
     "body_color": {
-      "tan": 6,
+      "tan": 5,
       "gray": 3,
       "genesis_gold": 2,
-      "beige": 3,
+      "beige": 4,
       "crystal": 2,
       "bronze": 2,
       "prismatic": 1,
@@ -32,18 +32,18 @@
       "green": 1,
       "silver": 3,
       "purple": 2,
-      "brown": 3,
-      "holographic": 2,
-      "golden": 1
+      "golden": 2,
+      "brown": 2,
+      "holographic": 2
     },
     "face_expression": {
       "cool": 3,
-      "happy": 5,
+      "happy": 4,
       "sleepy": 4,
+      "neutral": 6,
       "legendary": 1,
       "excited": 4,
       "cosmic": 1,
-      "neutral": 5,
       "curious": 1,
       "mischievous": 1,
       "laughing": 1,
@@ -53,13 +53,13 @@
       "wise": 1
     },
     "accessory": {
-      "headphones": 6,
+      "headphones": 5,
       "bandana": 5,
       "none": 8,
       "bow": 2,
       "simple_hat": 5,
       "jetpack": 1,
-      "sunglasses": 1,
+      "sunglasses": 2,
       "wings": 1,
       "laser_eyes": 2,
       "monocle": 1,
@@ -68,24 +68,24 @@
     "pattern": {
       "gradient": 6,
       "solid": 5,
-      "diamonds": 5,
+      "swirls": 4,
       "aurora": 1,
+      "diamonds": 4,
       "stripes": 3,
       "spots": 4,
-      "swirls": 3,
       "stars": 4,
       "cosmic_dust": 1,
-      "fractals": 1
+      "nebula": 1
     },
     "background": {
       "white": 4,
-      "blue_sky": 6,
+      "blue_sky": 5,
       "space": 2,
-      "green_grass": 5,
+      "green_grass": 6,
       "aurora": 1,
-      "sunset": 6,
+      "sunset": 7,
       "beach": 4,
-      "forest": 2,
+      "forest": 1,
       "volcano": 2,
       "underwater": 1
     },
