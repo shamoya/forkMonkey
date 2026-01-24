@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-01-23T00:54:20.801504+00:00",
+  "last_updated": "2026-01-24T00:51:38.232281+00:00",
   "total_monkeys": 33,
   "active_today": 13,
   "generations": {
     "1": 13,
     "2": 20
   },
-  "avg_rarity": 23.48,
+  "avg_rarity": 23.54,
   "max_rarity": 53.33,
   "min_rarity": 10.0,
   "rarest_trait": {
@@ -39,12 +39,12 @@
     "face_expression": {
       "cool": 4,
       "happy": 4,
-      "sleepy": 4,
+      "curious": 3,
       "neutral": 5,
       "legendary": 1,
       "excited": 4,
       "cosmic": 1,
-      "curious": 2,
+      "sleepy": 3,
       "mischievous": 1,
       "laughing": 1,
       "enlightened": 1,
@@ -53,13 +53,13 @@
       "winking": 2
     },
     "accessory": {
-      "headphones": 5,
-      "bandana": 5,
+      "headphones": 7,
+      "bandana": 4,
       "none": 8,
       "bow": 2,
       "simple_hat": 5,
       "jetpack": 1,
-      "sunglasses": 2,
+      "sunglasses": 1,
       "wings": 1,
       "laser_eyes": 2,
       "monocle": 1,
