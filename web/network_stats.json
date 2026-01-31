@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-30T01:00:51.778748+00:00",
+  "last_updated": "2026-01-31T00:58:32.849226+00:00",
   "total_monkeys": 33,
   "active_today": 13,
   "generations": {
@@ -71,17 +71,17 @@
       "stripes": 4,
       "gradient": 5,
       "solid": 4,
-      "swirls": 4,
+      "hearts": 2,
       "void": 1,
-      "diamonds": 3,
-      "stars": 4,
+      "diamonds": 4,
+      "swirls": 3,
+      "stars": 3,
       "cosmic_dust": 1,
-      "hearts": 1,
       "nebula": 1
     },
     "background": {
-      "blue_sky": 6,
-      "white": 5,
+      "blue_sky": 5,
+      "white": 6,
       "space": 2,
       "volcano": 3,
       "sunset": 7,
@@ -93,10 +93,10 @@
     "special": {
       "transcendent": 1,
       "none": 19,
-      "shadow": 3,
+      "shadow": 4,
       "glow": 3,
       "energy": 2,
-      "sparkles": 3,
+      "sparkles": 2,
       "aura": 1,
       "particles": 1
     }
