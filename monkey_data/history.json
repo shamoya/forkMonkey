@@ -2039,6 +2039,23 @@
       },
       "story": "Your monkey evolved! Changes: accessory: bow \u2192 none",
       "svg_filename": "2026-03-20_02-21_monkey.svg"
+    },
+    {
+      "timestamp": "2026-03-21T02:07:59.857952",
+      "dna_hash": "08edbae7bcc3a075",
+      "generation": 1,
+      "mutation_count": 45,
+      "rarity_score": 30.0,
+      "traits": {
+        "body_color": "blue",
+        "face_expression": "neutral",
+        "accessory": "none",
+        "pattern": "lightning",
+        "background": "volcano",
+        "special": "none"
+      },
+      "story": "Your monkey rested today. No visible changes.",
+      "svg_filename": "2026-03-21_02-07_monkey.svg"
     }
   ]
 }
