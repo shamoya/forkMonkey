@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T01:19:37.242049+00:00",
+  "last_updated": "2026-04-22T01:17:54.778223+00:00",
   "total_monkeys": 33,
   "active_today": 12,
   "generations": {
@@ -57,9 +57,9 @@
       "halo": 1,
       "sunglasses": 4,
       "bow": 3,
-      "simple_hat": 4,
+      "simple_hat": 3,
       "bandana": 3,
-      "none": 6,
+      "none": 7,
       "wings": 1,
       "laser_eyes": 3,
       "headphones": 3,
