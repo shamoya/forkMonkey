@@ -1,14 +1,14 @@
 {
   "generation": 1,
   "parent_id": null,
-  "dna_hash": "501cf6f17fcb86f0",
-  "mutation_count": 177,
+  "dna_hash": "13a71a664b8db5ff",
+  "mutation_count": 182,
   "birth_timestamp": 84469,
   "traits": {
     "body_color": {
-      "value": "pink",
-      "rarity": "rare",
-      "gene_sequence": "facdd9fe"
+      "value": "copper",
+      "rarity": "uncommon",
+      "gene_sequence": "0d83b1e8"
     },
     "face_expression": {
       "value": "excited",
@@ -16,14 +16,14 @@
       "gene_sequence": "1f285d35"
     },
     "accessory": {
-      "value": "simple_hat",
-      "rarity": "common",
-      "gene_sequence": "ed716f46"
+      "value": "crown",
+      "rarity": "uncommon",
+      "gene_sequence": "fa89ebac"
     },
     "pattern": {
-      "value": "stripes",
+      "value": "spots",
       "rarity": "common",
-      "gene_sequence": "49a1b947"
+      "gene_sequence": "e7bbc10d"
     },
     "background": {
       "value": "heaven",
@@ -31,10 +31,10 @@
       "gene_sequence": "7e04d118"
     },
     "special": {
-      "value": "godlike",
+      "value": "transcendent",
       "rarity": "legendary",
-      "gene_sequence": "adefa377"
+      "gene_sequence": "954084d7"
     }
   },
-  "rarity_score": 48.333333333333336
+  "rarity_score": 45.0
 }
