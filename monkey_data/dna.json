@@ -1,8 +1,8 @@
 {
   "generation": 1,
   "parent_id": null,
-  "dna_hash": "f74bd869154a06c1",
-  "mutation_count": 186,
+  "dna_hash": "cf71560b824b3e55",
+  "mutation_count": 188,
   "birth_timestamp": 84469,
   "traits": {
     "body_color": {
@@ -11,9 +11,9 @@
       "gene_sequence": "0d83b1e8"
     },
     "face_expression": {
-      "value": "winking",
+      "value": "laughing",
       "rarity": "rare",
-      "gene_sequence": "65d8a2d3"
+      "gene_sequence": "dbc6932f"
     },
     "accessory": {
       "value": "crown",
