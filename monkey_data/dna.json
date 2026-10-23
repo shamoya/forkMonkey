@@ -1,14 +1,14 @@
 {
   "generation": 1,
   "parent_id": null,
-  "dna_hash": "d39707d96ead7153",
-  "mutation_count": 192,
+  "dna_hash": "cb14ab2f860dc7bf",
+  "mutation_count": 193,
   "birth_timestamp": 84469,
   "traits": {
     "body_color": {
-      "value": "gray",
+      "value": "beige",
       "rarity": "common",
-      "gene_sequence": "7801d458"
+      "gene_sequence": "8fecf206"
     },
     "face_expression": {
       "value": "legendary",
