@@ -77,7 +77,7 @@
             <ellipse cx="208" cy="230" rx="5" ry="7" fill="#5D2E0C"/>
         </g>
 <line x1="182" y1="260" x2="218" y2="260" stroke="#5D2E0C" stroke-width="2"/>
-<polygon points="165,70 180,45 200,65 220,45 235,70" fill="#FFD700" stroke="#DAA520" stroke-width="2"/><rect x="165" y="70" width="70" height="12" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+
 <circle cx="200" cy="200" r="155" fill="none" stroke="#FF00FF" stroke-width="3" opacity="0.4" filter="url(#glow)"/><circle cx="200" cy="200" r="165" fill="none" stroke="#00FFFF" stroke-width="2" opacity="0.3"/>
 <g transform="translate(325, 15)">
             <rect width="65" height="22" rx="4" fill="#4ECDC4" opacity="0.9"/>
