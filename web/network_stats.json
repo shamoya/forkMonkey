@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T03:28:11.827442+00:00",
+  "last_updated": "2026-11-12T04:38:03.325325+00:00",
   "total_monkeys": 31,
   "active_today": 6,
   "generations": {
@@ -99,10 +99,10 @@
       "shadow": 4,
       "glow": 2,
       "godlike": 1,
-      "energy": 3,
+      "aura": 2,
       "sparkles": 2,
       "transcendent": 1,
-      "aura": 1
+      "energy": 2
     }
   }
 }
