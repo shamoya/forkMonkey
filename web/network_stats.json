@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-13T03:51:13.507119+00:00",
+  "last_updated": "2026-11-14T03:49:31.080869+00:00",
   "total_monkeys": 31,
-  "active_today": 6,
+  "active_today": 0,
   "generations": {
     "1": 13,
     "2": 18
@@ -42,13 +42,12 @@
       "curious": 3,
       "cool": 1,
       "excited": 2,
-      "laughing": 1,
+      "winking": 2,
       "legendary": 3,
       "cosmic": 1,
       "neutral": 4,
       "sleepy": 2,
-      "enlightened": 2,
-      "winking": 1
+      "enlightened": 2
     },
     "accessory": {
       "headphones": 5,
