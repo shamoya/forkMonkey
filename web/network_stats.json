@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-18T04:55:08.169738+00:00",
+  "last_updated": "2026-11-19T04:47:16.362790+00:00",
   "total_monkeys": 31,
   "active_today": 0,
   "generations": {
@@ -83,7 +83,7 @@
       "sunset": 5,
       "blue_sky": 3,
       "space": 1,
-      "heaven": 1,
+      "black_hole": 1,
       "multiverse": 1,
       "volcano": 1,
       "beach": 2,
@@ -94,12 +94,11 @@
     "special": {
       "none": 17,
       "shadow": 4,
-      "glow": 2,
-      "godlike": 1,
+      "glow": 3,
+      "godlike": 2,
       "particles": 1,
-      "sparkles": 2,
-      "transcendent": 1,
       "energy": 2,
+      "sparkles": 1,
       "aura": 1
     }
   }
